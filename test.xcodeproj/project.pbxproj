@@ -13,6 +13,7 @@
 		5C6EC978284204B900EBF18C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6EC977284204B900EBF18C /* Preview Assets.xcassets */; };
 		5C6EC97F2842056C00EBF18C /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC97E2842056C00EBF18C /* ViewModel.swift */; };
 		5C6EC9812842083E00EBF18C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6EC9802842083E00EBF18C /* ButtonView.swift */; };
+		5C7FBB4B2855CC74001FEED4 /* TabViewTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C7FBB4A2855CC74001FEED4 /* TabViewTestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		5C6EC977284204B900EBF18C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C6EC97E2842056C00EBF18C /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		5C6EC9802842083E00EBF18C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		5C7FBB4A2855CC74001FEED4 /* TabViewTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewTestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				5C6EC972284204B800EBF18C /* ContentView.swift */,
 				5C6EC97E2842056C00EBF18C /* ViewModel.swift */,
 				5C6EC9802842083E00EBF18C /* ButtonView.swift */,
+				5C7FBB492855CC59001FEED4 /* TabView */,
 				5C6EC974284204B900EBF18C /* Assets.xcassets */,
 				5C6EC976284204B900EBF18C /* Preview Content */,
 			);
@@ -71,6 +74,14 @@
 				5C6EC977284204B900EBF18C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5C7FBB492855CC59001FEED4 /* TabView */ = {
+			isa = PBXGroup;
+			children = (
+				5C7FBB4A2855CC74001FEED4 /* TabViewTestView.swift */,
+			);
+			path = TabView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -144,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C6EC973284204B800EBF18C /* ContentView.swift in Sources */,
+				5C7FBB4B2855CC74001FEED4 /* TabViewTestView.swift in Sources */,
 				5C6EC97F2842056C00EBF18C /* ViewModel.swift in Sources */,
 				5C6EC9812842083E00EBF18C /* ButtonView.swift in Sources */,
 				5C6EC971284204B800EBF18C /* testApp.swift in Sources */,
